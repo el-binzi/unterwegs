@@ -35,6 +35,22 @@ h6 {
   color: #903749;
 }
 
+.vita-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #f5f5f5;
+}
+
+.vita-subheading {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: #903749;
+}
+
 /* Containers */
 
 .container-fluid {
@@ -119,6 +135,27 @@ h6 {
 
 /* Vita Section */
 
+.vita-card {
+  background-color: #233142;
+}
+
+.card-header {
+  background-color: #233142;
+}
+
+.vita-button {
+  color: #f5f5f5;
+  background-color: #233142;
+}
+
+.vita-button:hover {
+  color: #903749;
+}
+
+.vita-body {
+  margin: 0 15% 0 15%;
+  text-align: left;
+}
 /* Hobby Section */
 
 /* Contact Section  */
