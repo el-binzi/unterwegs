@@ -46,7 +46,6 @@ h6 {
 .vita-subheading {
   font-size: 2rem;
   line-height: 1.5;
-  margin-top: 5%;
   margin-bottom: 2%;
   color: #903749;
 }
@@ -166,6 +165,10 @@ h6 {
 
 .vita-link:hover {
   color: #c72c41;
+}
+
+.vita-icon {
+  margin: 20px;
 }
 /* Hobby Section */
 
