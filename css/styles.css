@@ -137,6 +137,9 @@ h6 {
 
 .vita-card {
   background-color: #233142;
+  border-color: #233142;
+  width: 70%;
+  margin: auto;
 }
 
 .card-header {
@@ -149,12 +152,20 @@ h6 {
 }
 
 .vita-button:hover {
-  color: #903749;
+  color: #f5f5f5;
 }
 
 .vita-body {
   margin: 0 15% 0 15%;
   text-align: left;
+}
+
+.vita-link {
+  color: #c72c41;
+}
+
+.vita-link:hover {
+  color: #c72c41;
 }
 /* Hobby Section */
 
