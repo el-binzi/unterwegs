@@ -86,6 +86,10 @@ h6 {
   color: #903749;
 }
 
+.toggler-icon {
+  color: #f5f5f5;
+}
+
 .nav-item {
   padding: 0 18px;
 }
@@ -131,12 +135,12 @@ h6 {
   font-size: 1.5rem;
 }
 
-.competences-img {
+.competences-icon {
   color: #903749;
   margin-bottom: 1rem;
 }
 
-.competences-img:hover {
+.competences-icon:hover {
   color: #c72c41;
 }
 
@@ -233,6 +237,9 @@ h6 {
 
 /* Media Query */
 
+@media (max-width: 900px) {
+}
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
@@ -242,5 +249,13 @@ h6 {
     position: static;
     transform: rotate(0);
     margin-top: 5%;
+  }
+
+  .vita-card {
+    width: 100%;
+  }
+
+  .contact-img {
+    width: 50%;
   }
 }
