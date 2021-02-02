@@ -198,6 +198,10 @@ h6 {
 .vita-place {
   text-align: right;
 }
+
+.collapse-icon {
+  margin-left: 5%;
+}
 /* Hobby Section */
 
 /* Contact Section  */
@@ -237,10 +241,10 @@ h6 {
 
 /* Media Query */
 
-@media (max-width: 900px) {
+@media (min-width: 320px) and (max-width: 812px) {
 }
 
-@media (max-width: 1028px) {
+@media (min-width: 813px) and (max-width: 1200px) {
   #title {
     text-align: center;
   }
@@ -260,7 +264,7 @@ h6 {
   }
 }
 
-@media (min-width: 1029px) {
+@media (min-width: 1601px) and (max-width: 2000px) {
   .brand-name {
     font-size: 3rem;
     color: #903749;
