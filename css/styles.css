@@ -248,15 +248,76 @@ h6 {
     text-align: center;
   }
 
+  #title .container-fluid {
+    padding: 5% 10%;
+    text-align: center;
+  }
+
+  .container-fluid {
+    padding: 5% 10%;
+  }
+
   .big-heading {
     font-size: 2rem;
     text-align: center;
+  }
+
+  .vita-subheading {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 2%;
+    color: #903749;
+  }
+
+  .section-heading {
+    font-size: 2rem;
+    line-height: 1.5;
   }
 
   .title-img {
     position: static;
     transform: rotate(0);
     margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .competences-title {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+  .competences-paragraph {
+    margin-top: 4%;
+    font-size: 1rem;
+  }
+
+  .vita-card {
+    background-color: #233142;
+    border-color: #233142;
+    width: 100%;
+    margin: auto;
+  }
+
+  .vita-row {
+    font-size: 1rem;
+    margin: auto;
+  }
+
+  .vita-body {
+    font-size: 1rem;
+    margin: 0 5% 0 5%;
+  }
+
+  .contact-img {
+    width: 50%;
+    border-radius: 10%;
+    position: relative;
+    margin: 10% 0 10% 0;
+  }
+
+  .footer-icon.fa-4x {
+    font-size: 3em;
   }
 }
 
