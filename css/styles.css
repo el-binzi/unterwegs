@@ -339,11 +339,15 @@ h6 {
     padding: 0 2% 0 2%;
   }
 
+  #contact .container-fluid {
+    padding: 10% 7%;
+  }
+
   .contact-img {
     width: 65%;
     border-radius: 10%;
     position: relative;
-    margin: 10% 0 10% 0;
+    margin: 10% 0 15% 0;
   }
 
   #footer .container-fluid {
