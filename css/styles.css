@@ -278,6 +278,11 @@ h6 {
     color: #903749;
   }
 
+  #contact .vita-subheading {
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+
   .section-heading {
     font-size: 1.8rem;
     line-height: 1.5;
@@ -287,6 +292,7 @@ h6 {
   .title-img {
     position: static;
     transform: rotate(0);
+    width: 90%;
     margin-top: 10%;
     margin-bottom: 10%;
   }
@@ -324,13 +330,17 @@ h6 {
     margin: auto;
   }
 
+  #vita .col {
+    flex-basis: inherit;
+    text-align: center;
+  }
   .vita-body {
     font-size: 1rem;
     padding: 0 2% 0 2%;
   }
 
   .contact-img {
-    width: 50%;
+    width: 65%;
     border-radius: 10%;
     position: relative;
     margin: 10% 0 10% 0;
