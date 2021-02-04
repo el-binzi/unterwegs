@@ -346,6 +346,10 @@ h6 {
     margin: 10% 0 10% 0;
   }
 
+  #footer .container-fluid {
+    padding: 5% 0;
+  }
+
   .footer-icon.fa-4x {
     font-size: 3em;
   }
