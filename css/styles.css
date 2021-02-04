@@ -244,9 +244,28 @@ h6 {
 /* Media Query */
 
 @media (min-width: 320px) and (max-width: 812px) {
+  #title {
+    text-align: center;
+  }
+
+  .big-heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    margin-top: 10%;
+  }
 }
 
 @media (min-width: 813px) and (max-width: 1200px) {
+  body {
+    height: auto;
+    width: auto;
+  }
+
   #title {
     text-align: center;
   }
