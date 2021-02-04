@@ -202,6 +202,11 @@ h6 {
 .collapse-icon {
   margin-left: 5%;
   font-size: 1.2rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+button[aria-expanded="true"] .collapse-icon {
+  transform: scaleY(-1);
 }
 
 /* Hobby Section */
