@@ -303,6 +303,11 @@ h6 {
     font-size: 1rem;
   }
 
+  .competences-icon.fa-4x {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
   .vita-card {
     background-color: #233142;
     border-color: #233142;
