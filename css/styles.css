@@ -315,7 +315,7 @@ h6 {
 
   .competences-icon.fa-4x {
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
   }
 
   .vita-card {
@@ -340,7 +340,7 @@ h6 {
   }
 
   #contact .container-fluid {
-    padding: 10% 7%;
+    padding: 10% 5%;
   }
 
   .contact-img {
@@ -351,7 +351,7 @@ h6 {
   }
 
   #footer .container-fluid {
-    padding: 5% 0;
+    padding: 10% 0 5% 0%;
   }
 
   .footer-icon.fa-4x {
