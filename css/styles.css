@@ -254,7 +254,11 @@ h6 {
   }
 
   #vita .container-fluid {
-    padding: 5% 0;
+    padding: 10% 0;
+  }
+
+  .container-fluid {
+    padding-top: 10%;
   }
 
   .big-heading {
