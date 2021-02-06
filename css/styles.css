@@ -2,6 +2,7 @@ body {
   font-family: "Montserrat";
   font-weight: 400;
   text-align: center;
+  padding-top: 0;
 }
 
 h1,
@@ -69,8 +70,13 @@ h6 {
 
 /* Navigation Bar */
 
+#navi .container-fluid {
+  padding: 0% 15%;
+}
+
 .navbar {
-  padding: 0 0 4.5rem 0;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .navbar-brand {
