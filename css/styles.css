@@ -120,6 +120,14 @@ h6 {
   color: #f5f5f5;
 }
 
+.navbar-toggler.collapsed .close-icon {
+  display: none;
+}
+
+.navbar-toggler:not(.collapsed) .burger-icon {
+  display: none;
+}
+
 .nav-item {
   padding: 0 18px;
 }
