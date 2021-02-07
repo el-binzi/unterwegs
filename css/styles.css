@@ -275,7 +275,7 @@ button[aria-expanded="true"] .collapse-icon {
 }
 
 .footer-icon {
-  margin: 20px 10px;
+  margin: 10px 10px;
   color: #903749;
 }
 .footer-icon:hover {
@@ -286,7 +286,6 @@ button[aria-expanded="true"] .collapse-icon {
   font-family: "Montserrat";
   font-weight: 300;
   font-size: 1rem;
-  margin-top: 2%;
 }
 
 .footer-imprint {
