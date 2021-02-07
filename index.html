@@ -32,6 +32,28 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Mail Encryptor JS -->
+    <script type="text/javascript">
+      <!--
+      function UnCryptMailto(s) {
+        var n = 0;
+        var r = "";
+        for (var i = 0; i < s.length; i++) {
+          n = s.charCodeAt(i);
+          if (n >= 8364) {
+            n = 128;
+          }
+          r += String.fromCharCode(n - 1);
+        }
+        return r;
+      }
+
+      function linkTo_UnCryptMailto(s) {
+        location.href = UnCryptMailto(s);
+      }
+      // -->
+    </script>
+
     <!-- Font awesome -->
     <script
       src="https://kit.fontawesome.com/1991e9bd7b.js"
@@ -781,7 +803,8 @@
         </h3>
         <img class="contact-img" src="images/Marcel2.jpeg" alt="Auf bald!" />
         <br />
-        <a href="mailto:marcel.binzenhoefer@gmx.de"
+        <a
+          href="javascript:linkTo_UnCryptMailto('nbjmup;nbsdfm/cjo{foipfgfsAhny/ef');"
           ><button
             type="button"
             class="btn btn-outline-light btn-lg contact-button"
