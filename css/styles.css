@@ -255,6 +255,8 @@ button[aria-expanded="true"] .collapse-icon {
   margin: 0% 0% 5% 0%;
   font-family: "Montserrat";
   font-weight: 300;
+  background-color: #a67e05;
+  border-color: #a67e05;
 }
 
 .contact-img {
