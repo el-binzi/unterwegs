@@ -414,7 +414,7 @@ button[aria-expanded="true"] .collapse-icon {
   }
 
   #title .container-fluid {
-    padding: 5% 10%;
+    padding: 5%;
     text-align: center;
   }
 
@@ -427,7 +427,7 @@ button[aria-expanded="true"] .collapse-icon {
   }
 
   .big-heading {
-    margin-top: 5%;
+    margin-top: 5% 0;
     font-size: 2rem;
     text-align: center;
   }
@@ -439,7 +439,7 @@ button[aria-expanded="true"] .collapse-icon {
     font-size: 2rem;
     font-weight: 700;
     padding: 30% 5% 30% 5%;
-    margin: 5% 10% 5% 10%;
+    margin: 5%;
   }
 
   @-webkit-keyframes animate {
