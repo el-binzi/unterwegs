@@ -20,7 +20,7 @@ h6 {
 .big-heading {
   font-weight: 900;
   font-size: 3.5rem;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 .section-heading {
@@ -140,14 +140,15 @@ h6 {
 }
 
 .nav-link:hover {
-  color: #f5f5f5;
+  color: #903749;
 }
 
 /* Title Section */
 
 #title .container-fluid {
-  padding: 5% 15% 7%;
+  padding: 5% 15% 12% 15%;
   text-align: left;
+  height: 500px;
 }
 
 .title-img {
@@ -155,6 +156,61 @@ h6 {
   border-radius: 10%;
   position: absolute;
   right: 8%;
+}
+
+.title-questions .big-heading {
+  color: #a67e05;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 10% 20% 0 20%;
+}
+
+.questions:before {
+  content: "Was is für mich wesentlich?";
+  animation: animate infinite 25s;
+}
+
+@keyframes animate {
+  0% {
+    content: "Was is für mich wesentlich?";
+  }
+  30% {
+    content: "Wie kann ich mich weiterentwickeln?";
+  }
+  45% {
+    content: "Fülle ich meine Rolle(n) wirkungsvoll aus?";
+  }
+  60% {
+    content: "Kommuniziere ich klar und wertschätzend?";
+  }
+  75% {
+    content: "Treffe ich gute Entscheidungen?";
+  }
+  100% {
+    content: "Bin ich momentan auf dem (richtigen) Weg?";
+  }
+}
+
+.title-cta {
+  text-align: center;
+  margin: 0 20% 0 20%;
+}
+
+.title-cta .big-heading {
+  font-size: 3rem;
+  margin-bottom: 5%;
+  line-height: 1.5;
+  color: #f5f5f5;
+}
+
+.cta-button {
+  margin: 3% 0 0 0;
+  font-family: "Montserrat";
+  font-weight: 300;
+  background-color: #a67e05;
+  border-color: #a67e05;
 }
 
 /* Competences Section */
@@ -332,7 +388,7 @@ button[aria-expanded="true"] .collapse-icon {
 
 /* Media Query */
 
-@media (min-width: 320px) and (max-width: 812px) {
+@media (min-width: 320px) and (max-width: 760px) {
   #navi .container-fluid {
     padding: 0 5%;
   }
@@ -367,8 +423,37 @@ button[aria-expanded="true"] .collapse-icon {
   }
 
   .big-heading {
+    margin-top: 5%;
     font-size: 2rem;
     text-align: center;
+  }
+
+  .title-questions .big-heading {
+    color: #a67e05;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 30% 5% 30% 5%;
+    margin: auto;
+  }
+
+  .title-cta {
+    margin: 0 5% 0 5%;
+  }
+
+  .title-cta .big-heading {
+    font-size: 2rem;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+
+  .cta-button {
+    margin: 10% 0 0 0;
+    font-family: "Montserrat";
+    font-weight: 300;
+    background-color: #a67e05;
+    border-color: #a67e05;
   }
 
   .vita-heading {
@@ -474,7 +559,7 @@ button[aria-expanded="true"] .collapse-icon {
   }
 }
 
-@media (min-width: 813px) and (max-width: 1200px) {
+@media (min-width: 761px) and (max-width: 1200px) {
   body {
     height: auto;
     width: auto;
@@ -485,11 +570,50 @@ button[aria-expanded="true"] .collapse-icon {
   }
 
   .title-img {
-    position: static;
+    position: relative;
     transform: rotate(0);
     margin-top: 5%;
+    width: 50%;
+    right: 0%;
   }
 
+  .col-img {
+    text-align: center;
+  }
+
+  .big-heading {
+    margin-top: 5%;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .title-questions .big-heading {
+    color: #a67e05;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 30% 5% 30% 5%;
+    margin: auto;
+  }
+
+  .title-cta {
+    margin: 0 5% 0 5%;
+  }
+
+  .title-cta .big-heading {
+    font-size: 2rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .cta-button {
+    margin: 5% 0 0 0;
+    font-family: "Montserrat";
+    font-weight: 300;
+    background-color: #a67e05;
+    border-color: #a67e05;
+  }
   .vita-card {
     width: 100%;
   }

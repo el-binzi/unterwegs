@@ -131,17 +131,43 @@
     </section>
 
     <!-- Title -->
-    <section id="title" class="colored-section">
-      <div class="container-fluid">
-        <div class="row title-row">
-          <div class="col-lg-6">
-            <h1 class="big-heading">Ich bin Marcel.</h1>
-            <h1 class="big-heading">People & Culture Enthusiast.</h1>
-          </div>
-          <div class="col-lg-6">
-            <img class="title-img" src="images/Marcel1.jpeg" alt="Marcel1" />
+
+    <section id="title" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#title" data-slide-to="0" class="active"></li>
+        <li data-target="#title" data-slide-to="1"></li>
+        <li data-target="#title" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid colored-section" data-interval="3000">
+          <div class="row title-row">
+            <div class="col-lg-6">
+              <h1 class="big-heading">Ich bin Marcel.</h1>
+              <h1 class="big-heading">People & Culture Enthusiast.</h1>
+            </div>
+            <div class="col-lg-6 col-img">
+              <img class="title-img" src="images/Marcel1.jpeg" alt="Marcel1" />
+            </div>
           </div>
         </div>
+        <div class="carousel-item container-fluid colored-section" data-interval="25000">
+          <div class="title-questions">
+            <h1 class="big-heading"><span class="questions"></span></h1>
+          </div>
+        </div>
+        <div class="carousel-item container-fluid colored-section" data-interval="10000">
+          <div class="title-cta">
+              <h1 class="big-heading">Kommen dir diese Fragen bekannt vor?</h1>
+              <h3 class="vita-subheading">
+                Ich begleite dich auf deinem Weg!
+              </h3>
+              <button
+            type="button"
+            class="btn btn-outline-light btn-lg cta-button"
+          >
+            <i class="fas fa-envelope"></i> Der erste Schritt!
+          </button>
+          </div>
       </div>
     </section>
 
