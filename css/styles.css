@@ -176,6 +176,27 @@ h6 {
   animation: animate infinite 25s;
 }
 
+@-webkit-keyframes animate {
+  0% {
+    -webkit-content: "Was is für mich wesentlich?";
+  }
+  30% {
+    -webkit-content: "Wie kann ich mich weiterentwickeln?";
+  }
+  45% {
+    -webkit-content: "Fülle ich meine Rolle(n) wirkungsvoll aus?";
+  }
+  60% {
+    -webkit-content: "Kommuniziere ich klar und wertschätzend?";
+  }
+  75% {
+    -webkit-content: "Treffe ich gute Entscheidungen?";
+  }
+  100% {
+    -webkit-content: "Bin ich momentan auf dem (richtigen) Weg?";
+  }
+}
+
 @keyframes animate {
   0% {
     content: "Was is für mich wesentlich?";
@@ -440,27 +461,6 @@ button[aria-expanded="true"] .collapse-icon {
     font-weight: 700;
     padding: 30% 5% 30% 5%;
     margin: 5%;
-  }
-
-  @-webkit-keyframes animate {
-    0% {
-      -webkit-content: "Was is für mich wesentlich?";
-    }
-    30% {
-      -webkit-content: "Wie kann ich mich weiterentwickeln?";
-    }
-    45% {
-      -webkit-content: "Fülle ich meine Rolle(n) wirkungsvoll aus?";
-    }
-    60% {
-      -webkit-content: "Kommuniziere ich klar und wertschätzend?";
-    }
-    75% {
-      -webkit-content: "Treffe ich gute Entscheidungen?";
-    }
-    100% {
-      -webkit-content: "Bin ich momentan auf dem (richtigen) Weg?";
-    }
   }
 
   .title-cta {
