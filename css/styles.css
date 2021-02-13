@@ -176,7 +176,7 @@ h6 {
   animation: animate infinite 25s;
 }
 
-@keyframes animate {
+@-webkit-keyframes animate {
   0% {
     content: "Was is für mich wesentlich?";
   }
