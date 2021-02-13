@@ -148,7 +148,7 @@ h6 {
 #title .container-fluid {
   padding: 5% 15% 12% 15%;
   text-align: left;
-  height: 500px;
+  height: 550px;
 }
 
 .title-img {
@@ -448,7 +448,7 @@ button[aria-expanded="true"] .collapse-icon {
   }
 
   .big-heading {
-    margin-top: 5% 0;
+    margin-top: 15%;
     font-size: 2rem;
     text-align: center;
   }
@@ -461,6 +461,11 @@ button[aria-expanded="true"] .collapse-icon {
     font-weight: 700;
     padding: 30% 5% 30% 5%;
     margin: 5%;
+  }
+
+  .tile-name .big-heading {
+    margin: 5%;
+    padding: 30% 5% 30% 5%;
   }
 
   .title-cta {
