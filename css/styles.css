@@ -178,7 +178,7 @@ h6 {
 
 @-webkit-keyframes animate {
   0% {
-    -webkit-content: "Was is für mich wesentlich?";
+    -webkit-content: "Was ist für mich wesentlich?";
   }
   30% {
     -webkit-content: "Wie kann ich mich weiterentwickeln?";
@@ -199,7 +199,7 @@ h6 {
 
 @keyframes animate {
   0% {
-    content: "Was is für mich wesentlich?";
+    content: "Was ist für mich wesentlich?";
   }
   30% {
     content: "Wie kann ich mich weiterentwickeln?";
