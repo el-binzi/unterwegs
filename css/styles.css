@@ -158,10 +158,6 @@ h6 {
   right: 8%;
 }
 
-.title-questions {
-  display: block;
-}
-
 .title-questions .big-heading {
   color: #a67e05;
   text-align: center;
@@ -172,7 +168,6 @@ h6 {
 }
 
 .questions::before {
-  display: block;
   content: "Was ist für mich wesentlich?";
   -webkit-animation-delay: 0.01s;
   -webkit-animation-name: animate;
