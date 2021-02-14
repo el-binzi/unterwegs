@@ -186,22 +186,22 @@ h6 {
 
 @-webkit-keyframes animate {
   0% {
-    -webkit-content: "Was ist für mich wesentlich?";
+    content: "Was ist für mich wesentlich?";
   }
   30% {
-    -webkit-content: "Wie kann ich mich weiterentwickeln?";
+    content: "Wie kann ich mich weiterentwickeln?";
   }
   45% {
-    -webkit-content: "Fülle ich meine Rolle(n) wirkungsvoll aus?";
+    content: "Fülle ich meine Rolle(n) wirkungsvoll aus?";
   }
   60% {
-    -webkit-content: "Kommuniziere ich klar und wertschätzend?";
+    content: "Kommuniziere ich klar und wertschätzend?";
   }
   75% {
-    -webkit-content: "Treffe ich gute Entscheidungen?";
+    content: "Treffe ich gute Entscheidungen?";
   }
   100% {
-    -webkit-content: "Bin ich momentan auf dem (richtigen) Weg?";
+    content: "Bin ich momentan auf dem (richtigen) Weg?";
   }
 }
 
