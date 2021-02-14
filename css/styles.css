@@ -172,8 +172,10 @@ h6 {
 }
 
 .questions:before {
+  display: block;
   content: "Was ist für mich wesentlich?";
   animation: animate infinite 25s;
+  -webkit-animation: animate infinite 25s;
 }
 
 @-webkit-keyframes animate {
