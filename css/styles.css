@@ -171,6 +171,11 @@ h6 {
   margin: 10% 20% 0 20%;
 }
 
+.carousel-indicators li {
+  width: 50px;
+  height: 5px;
+}
+
 .questions::before {
   display: block;
   content: "Was ist für mich wesentlich?";
@@ -481,11 +486,16 @@ button[aria-expanded="true"] .collapse-icon {
   .title-cta .big-heading {
     font-size: 2rem;
     margin-top: 15%;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
+  }
+
+  .title-cta .vita-subheading {
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 
   .cta-button {
-    margin: 10% 0 0 0;
+    margin: 5% 0 0 0;
     font-family: "Montserrat";
     font-weight: 300;
     background-color: #a67e05;
