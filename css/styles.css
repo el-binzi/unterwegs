@@ -97,6 +97,7 @@ h6 {
 #navi .container-fluid {
   padding: 0% 15%;
   border-bottom: solid #c72c41 2px;
+  border-bottom: solid #903749 2px;
 }
 
 .navbar {
@@ -177,57 +178,8 @@ h6 {
   height: 5px;
 }
 
-.questions::before {
-  display: block;
-  content: "Was ist für mich wesentlich?";
-  -webkit-animation-name: animate;
-  -webkit-animation-duration: 25s;
-  -webkit-animation-iteration-count: infinite;
-  animation-name: animate;
-  animation-duration: 25s;
-  animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes animate {
-  0% {
-    content: "Was ist für mich wesentlich?";
-  }
-  30% {
-    content: "Wie kann ich mich weiterentwickeln?";
-  }
-  45% {
-    content: "Fülle ich meine Rolle(n) wirkungsvoll aus?";
-  }
-  60% {
-    content: "Kommuniziere ich klar und wertschätzend?";
-  }
-  75% {
-    content: "Treffe ich gute Entscheidungen?";
-  }
-  100% {
-    content: "Bin ich momentan auf dem (richtigen) Weg?";
-  }
-}
-
-@keyframes animate {
-  0% {
-    content: "Was ist für mich wesentlich?";
-  }
-  30% {
-    content: "Wie kann ich mich weiterentwickeln?";
-  }
-  45% {
-    content: "Fülle ich meine Rolle(n) wirkungsvoll aus?";
-  }
-  60% {
-    content: "Kommuniziere ich klar und wertschätzend?";
-  }
-  75% {
-    content: "Treffe ich gute Entscheidungen?";
-  }
-  100% {
-    content: "Bin ich momentan auf dem (richtigen) Weg?";
-  }
+.typewrite {
+  color: #a67e05;
 }
 
 .title-cta {
