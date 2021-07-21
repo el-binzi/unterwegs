@@ -314,6 +314,11 @@ button[aria-expanded="true"] .collapse-icon {
   margin: 5% 0 5% 0;
 }
 
+.playlist {
+  width: 50%;
+  height: 380px;
+}
+
 /* Footer Section */
 
 #footer {
@@ -546,6 +551,11 @@ button[aria-expanded="true"] .collapse-icon {
     margin: 10% 0 15% 0;
   }
 
+  .playlist {
+    width: 100%;
+    height: 380px;
+  }
+
   #footer .container-fluid {
     padding: 10% 0 5% 0%;
   }
@@ -626,6 +636,11 @@ button[aria-expanded="true"] .collapse-icon {
 
   .contact-img {
     width: 50%;
+  }
+
+  .playlist {
+    width: 100%;
+    height: 380px;
   }
 }
 
