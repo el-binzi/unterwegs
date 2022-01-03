@@ -67,6 +67,19 @@
 
     <script src="script.js"></script>
 
+    <!-- Randome quote -->
+    <script>
+      var quotes = ['"Mit der Drehung des Kopfes löst sich nicht das Problem, sondern es ergeben sich Blickwinkel, aus denen sich die Lösung ergibt." - Alte Eulenweisheit',
+                    '"Alles Wissen und alles Vermehren unseres Wissens endet nicht mit einem Schlußpunkt, sondern mit einem Fragezeichen." - Hermann Hesse',
+                    '"Man kann einen Menschen nichts lehren, man kann ihm nur helfen, es in sich selbst zu entdecken." - Galileo Galilei',
+                    '"Es gibt auf der Welt einen einzigen Weg, welchen niiemand gehen kann außer dir. Wohin er führt, frage nicht. Gehe ihn." - Friedrich Nietzsche', 
+                    '"Das Geheimnis eines fröhlichen Lebens ist die Fähigkeit, sich selber zu verlassen, sich aus einer anderen Sicht zu sehen, nur als Sandkorn im Gefüge." - Helge Schneider']
+      function randomQuotes() {
+          var idx = Math.floor(Math.random() * quotes.length)
+          document.getElementById('quote').innerHTML = quotes[idx]
+      }
+      </script>
+
     <!-- Font awesome -->
     <script
       src="https://kit.fontawesome.com/1991e9bd7b.js"
@@ -82,7 +95,7 @@
     />
   </head>
 
-  <body>
+  <body onload="randomQuotes()">
     <!-- Nav Bar -->
     <section id="navi" class="colored-section sticky-top">
       <div class="container-fluid">
@@ -192,25 +205,24 @@
             <i class="fas fa-hands-helping competences-icon fa-4x"></i>
             <h3 class="competences-title">Coaching</h3>
             <p class="competences-paragraph">
-              Im letzten Jahr habe ich eine Ausbildung zum syst. Berater gemacht. Es bereitet mir
+              Es bereitet mir
               Freude, mit Menschen zu arbeiten, Fragen zu stellen und
               Perspektiven aufzuzeigen.
             </p>
           </div>
           <div class="col-xl-4 competences-box">
             <i class="fas fa-network-wired competences-icon fa-4x"></i>
-            <h3 class="competences-title">Networking</h3>
+            <h3 class="competences-title">Brücken bauen</h3>
             <p class="competences-paragraph">
-              Brücken zwischen Menschen zu bauen, ist meine Leidenschaft. Dadurch entstehen wertvolle Beziehungen und Wissensaustausch.
+              Brücken zwischen Menschen zu bauen, ist meine Leidenschaft. Dadurch entstehen wertvolle Dialoge und Beziehungen.
             </p>
           </div>
           <div class="col-xl-4 competences-box">
             <i class="fas fa-user-friends competences-icon fa-4x"></i>
-            <h3 class="competences-title">Leadership</h3>
+            <h3 class="competences-title">Laterale Führung</h3>
             <p class="competences-paragraph">
-              Gute Führung basiert für mich auf Vertrauen, Authentizität und
-              Wertschätzung. Meine Priorität ist es, Selbtsorganisation und
-              Eigenständigkeit zu fördern.
+              Führung basiert für mich auf Vertrauen, Authentizität und
+              Wertschätzung. Mein Fokus ist es, Selbstorganisation zu fördern.
             </p>
           </div>
         </div>
@@ -220,25 +232,22 @@
             <h3 class="competences-title">Kommunikation</h3>
             <p class="competences-paragraph">
               Bewusstsein für Sprache und ihre Wirkung zu schaffen, ist für mich
-              der Schlüssel in der Arbeit mit Menschen. Klare Kommunikation ist
-              dabei ein wesentlicher Faktor.
+              der Schlüssel in der Arbeit mit Menschen.
             </p>
           </div>
           <div class="col-xl-4 competences-box">
             <i class="fas fa-heart competences-icon fa-4x"></i>
             <h3 class="competences-title">Empathie</h3>
             <p class="competences-paragraph">
-              Mein Ziel ist es, Menschen aufmerksam zuzuhören und ihre
-              Eigenarten kennenzulernen, um optimal auf ihre Bedürfnisse
-              eingehen zu können.
+              Ich liebe es, Menschen zuzuhören, ihre Eigenarten
+              kennenzulernen und auf ihre Bedürfnisse einzugehen.
             </p>
           </div>
           <div class="col-xl-4 competences-box">
             <i class="fas fa-fire competences-icon fa-4x"></i>
             <h3 class="competences-title">Neugierde</h3>
             <p class="competences-paragraph">
-              Lebenslanges Lernen ist für mich essentiell - egal ob
-              autodidaktisch oder gemeinsam. Ich bin jederzeit offen für neue
+              Lebenslanges Lernen ist für mich essentiell. Ich bin jederzeit offen für neue
               Themen und spannende Dialoge.
             </p>
           </div>
@@ -928,6 +937,7 @@
         </h3>
         <br>
         <iframe class="playlist" src="https://open.spotify.com/embed/playlist/1ntg8GZYX1T2yImLK6k1ou?theme=0" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <br> 
       </div>
     </section>
 
