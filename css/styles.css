@@ -365,6 +365,18 @@ button[aria-expanded="true"] .collapse-icon {
   color: #903749;
 }
 
+.quote-icon {
+  color: #f5f5f5;
+  margin-bottom: 1rem;
+}
+
+#quote {
+  font-family: "Montserrat" ;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+
 /* Imprint Section */
 
 #navi-imprint .container-fluid {
