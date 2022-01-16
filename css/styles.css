@@ -19,8 +19,15 @@ h6 {
 
 .big-heading {
   font-weight: 900;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.2;
+}
+
+.claim {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #a67e05  
 }
 
 .section-heading {
