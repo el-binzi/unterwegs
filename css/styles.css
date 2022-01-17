@@ -332,6 +332,7 @@ button[aria-expanded="true"] .collapse-icon {
 .playlist {
   width: 50%;
   height: 380px;
+  border-radius: 5%;
 }
 
 /* Footer Section */
