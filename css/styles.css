@@ -323,7 +323,7 @@ button[aria-expanded="true"] .collapse-icon {
 }
 
 .contact-img {
-  width: 25%;
+  width: 80%;
   border-radius: 10%;
   position: relative;
   margin: 5% 0 5% 0;
@@ -573,7 +573,7 @@ button[aria-expanded="true"] .collapse-icon {
   }
 
   .contact-img {
-    width: 65%;
+    width: 90%;
     border-radius: 10%;
     position: relative;
     margin: 10% 0 15% 0;
@@ -663,7 +663,7 @@ button[aria-expanded="true"] .collapse-icon {
   }
 
   .contact-img {
-    width: 50%;
+    width: 100%;
   }
 
   .playlist {
@@ -723,7 +723,7 @@ button[aria-expanded="true"] .collapse-icon {
   }
 
   .contact-img {
-    width: 20%;
+    width: 90%;
   }
 
   .big-heading {
