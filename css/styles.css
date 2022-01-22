@@ -329,6 +329,11 @@ button[aria-expanded="true"] .collapse-icon {
   margin: 5% 0 5% 0;
 }
 
+.contact-icon {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
 .playlist {
   width: 50%;
   height: 380px;
@@ -453,6 +458,10 @@ button[aria-expanded="true"] .collapse-icon {
     text-align: center;
   }
 
+  .claim {
+    text-align: center; 
+  }
+
   .title-row {
     margin-top: 0%;
   }
@@ -568,6 +577,10 @@ button[aria-expanded="true"] .collapse-icon {
     padding: 0 2% 0 2%;
   }
 
+  .download-button {
+    margin: 0% 0% 10% 0%;
+  }
+
   #contact .container-fluid {
     padding: 10% 5%;
   }
@@ -577,6 +590,11 @@ button[aria-expanded="true"] .collapse-icon {
     border-radius: 10%;
     position: relative;
     margin: 10% 0 15% 0;
+  }
+
+  .contact-icon {
+    margin-top: 40px;
+    margin-bottom: 5px;
   }
 
   .playlist {
@@ -631,6 +649,10 @@ button[aria-expanded="true"] .collapse-icon {
     text-align: center;
   }
 
+  .claim {
+   text-align: center;
+  }
+
   .title-questions .big-heading {
     color: #a67e05;
     text-align: center;
@@ -673,6 +695,12 @@ button[aria-expanded="true"] .collapse-icon {
 }
 
 @media (min-width: 1601px) and (max-width: 2000px) {
+
+  #title .container-fluid { 
+    height: 650px;
+  }
+
+
   .brand-name {
     font-size: 3rem;
     color: #903749;
@@ -730,6 +758,11 @@ button[aria-expanded="true"] .collapse-icon {
     font-weight: 900;
     font-size: 4rem;
     line-height: 1.5;
+  }
+
+  .claim {
+    font-weight: 600;
+    font-size: 2.5rem;
   }
 
   .section-heading {
