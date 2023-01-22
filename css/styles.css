@@ -655,7 +655,7 @@ button[aria-expanded="true"] .collapse-icon {
   }
   
   .offer-paragraph-team {
-    width: 60%;
+    width: 80%;
     margin: auto;
     line-height: 200%;
   }
@@ -783,6 +783,19 @@ button[aria-expanded="true"] .collapse-icon {
     font-weight: 300;
     background-color: #a67e05;
     border-color: #a67e05;
+  }
+
+  .offer-paragraph {
+    margin-top: 2%;
+    width: 100%;
+    margin: auto;
+    line-height: 200%;
+  }
+  
+  .offer-paragraph-team {
+    width: 100%;
+    margin: auto;
+    line-height: 200%;
   }
   .vita-card {
     width: 100%;
