@@ -647,6 +647,19 @@ button[aria-expanded="true"] .collapse-icon {
     margin-bottom: 10%;
   }
 
+  .offer-paragraph {
+    margin-top: 2%;
+    width: 80%;
+    margin: auto;
+    line-height: 200%;
+  }
+  
+  .offer-paragraph-team {
+    width: 60%;
+    margin: auto;
+    line-height: 200%;
+  }
+
   .vita-card {
     background-color: #233142;
     border-color: #233142;
@@ -882,5 +895,13 @@ button[aria-expanded="true"] .collapse-icon {
     line-height: 1.5;
     margin-bottom: 2%;
     color: #903749;
+  }
+
+  .offer-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #f5f5f5;
   }
 }
