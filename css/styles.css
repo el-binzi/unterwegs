@@ -655,8 +655,8 @@ button[aria-expanded="true"] .collapse-icon {
   }
   
   .offer-paragraph-team {
-    width: 100%;
     margin-top: 5%;
+    width: 100%;
     line-height: 200%;
   }
 
@@ -798,6 +798,7 @@ button[aria-expanded="true"] .collapse-icon {
     margin: auto;
     line-height: 200%;
   }
+
   .vita-card {
     width: 100%;
   }
