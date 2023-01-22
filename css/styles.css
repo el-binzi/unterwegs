@@ -596,6 +596,11 @@ button[aria-expanded="true"] .collapse-icon {
     border-color: #a67e05;
   }
 
+  .vita-title {
+    text-align: center;
+    padding-right: 1%;
+  }
+
   .vita-heading {
     font-size: 1.8rem;
   }
@@ -665,6 +670,8 @@ button[aria-expanded="true"] .collapse-icon {
     line-height: 1.5;
     margin-top: 10%;
     margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
     color: #fff;
     box-align: center,
   }
