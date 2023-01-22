@@ -660,6 +660,15 @@ button[aria-expanded="true"] .collapse-icon {
     line-height: 200%;
   }
 
+  .reading-cta {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    color: #fff;
+    box-align: center,
+  }
+
   .vita-card {
     background-color: #233142;
     border-color: #233142;
